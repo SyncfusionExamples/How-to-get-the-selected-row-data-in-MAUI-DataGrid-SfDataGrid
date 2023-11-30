@@ -6,13 +6,11 @@ The [.NET MAUI DataGrid](https://www.syncfusion.com/maui-controls/maui-datagrid)
 The `SelectionChanged` event is hooked to get the data of the selected row.
 
 ```XML
-<contentpage.content>
-    <syncfusion:sfdatagrid x:name="datagrid" 
-                           selectionmode="Single" 
-                           itemssource="{Binding Employees}" 
-                           selectionchanged="Datagrid_SelectionChanged">
-    </syncfusion:sfdatagrid>
-</contentpage.content>
+<ContentPage.Content>
+        <syncfusion:SfDataGrid SelectionMode="Single"
+                               ItemsSource="{Binding Employees}"
+                               SelectionChanged="Datagrid_SelectionChanged" />
+</ContentPage.Content>
  ```
  
 
